@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:34a5ddc9-a05d-4553-a861-8dae6ca4f98c" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+  <metadata>
+    <timestamp>2025-07-10T07:49:13Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>OWASP Foundation</vendor>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.7</version>
+        <hashes>
+          <hash alg="MD5">436dfb24c63a322708e4a5143d8543af</hash>
+          <hash alg="SHA-1">3ef2e8728dc9eff2f129c34057e46e9d2b10629a</hash>
+          <hash alg="SHA-256">c185b79bf0f9264f43bc8c222c44db67bea275bb727e3327cf9aea6bf45292c9</hash>
+          <hash alg="SHA-512">41488733e31e6c5315327dcc86187c2b9a6b96cd08f7e2157ce130688afde29c313fc6a73edb8a76333a930c78874aa2eac874448920030c0f7af0ac05e65ced</hash>
+          <hash alg="SHA-384">f9462f86240fd9fc0942f34981e6d2371f252aa1a4e5e8c3c14e7f0f1a4e4de69ef972e51cf09a749afb6d97c13e67ed</hash>
+          <hash alg="SHA3-384">c755af6239348bc7dd1e1e6b5f14f7cf7e1560d689b252d9610cd865fa4b419d0b8e26260731dfc5da2176b6e706b414</hash>
+          <hash alg="SHA3-256">309aac91005470c9c834354ab918759e2ae7ec52fc1676002621a5bbdf3b7827</hash>
+          <hash alg="SHA3-512">c634570dcf8302e61005e5fa91a9a0d9b81542f731967b3c9f6d3ef89e3b945bd36d7ab69e2ebad8124b9c05da504361c8b36a8ce528d844409eeb7df4eea6ce</hash>
+        </hashes>
+      </tool>
+    </tools>
+    <component type="library" bom-ref="pkg:maven/org.apache.flink/flink-table-common@1.20.1?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.flink</group>
+      <name>flink-table-common</name>
+      <version>1.20.1</version>
+      <description>This module contains extension points of the Table/SQL API.
+		It allows for implementing user-defined functions, custom
+		formats, etc. with minimal dependencies.</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.flink/flink-table-common@1.20.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://flink.apache.org/flink-table/flink-table-common</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/flink/flink-table/flink-table-common</url></reference></externalReferences>
+    </component>
+    <properties>
+      <property name="maven.goal">makeBom</property>
+      <property name="maven.scopes">compile,provided,runtime,system</property>
+    </properties>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/org.apache.flink/flink-core@1.20.1?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.flink</group>
+      <name>flink-core</name>
+      <version>1.20.1</version>
+      <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">44285f716588b39c6b4095517627598c</hash>
+        <hash alg="SHA-1">5863d1ba57696e5921a523b93acd7fedb8aaa905</hash>
+        <hash alg="SHA-256">e2b0cce5571792dd4fa3ca178420609ed296c82466aba75de183e2861e371c08</hash>
+        <hash alg="SHA-512">5c36dd890de8c86aa0a1f14ee5814db52de02c01bafbe56f71200da4915f6ef4b346ded410c27d24d28b038eedee0dead6981ae74b2b874ec05df0733e32a93b</hash>
+        <hash alg="SHA-384">ff27a5c4a4cbb37e26535a6d8ad8e212a20ac285733eb950306ae33cd4a2285f7b7c57b8c1a29344a5ee233589576d16</hash>
+        <hash alg="SHA3-384">4cb77f847f5091e17e23e1a3c573abd768a2b8561faeec9ae11d017ddc1610b6e76b893a573775cf00bd3ee5225ebbda</hash>
+        <hash alg="SHA3-256">b6f56c532a5d736caae1b59b180a106411ae32f8ea0f2430f7796d6bfe36623d</hash>
+        <hash alg="SHA3-512">c90968fc97bd41a7afdaaf72f1c93f1b727cfe412f02d7fa00faa8284b56762c4fcc53498d29cfe4082c018d7288d3849e34b6000091661d82006c3881e8e10f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.flink/flink-core@1.20.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://flink.apache.org/flink-core</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/flink/flink-core</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.flink/flink-core-api@1.20.1?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.flink</group>
+      <name>flink-core-api</name>
+      <version>1.20.1</version>
+      <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">6d06e919fac15f2f99507d56cf3d981b</hash>
+        <hash alg="SHA-1">618fb41fdba8cf1412f6d85c32bdd4793faa8daa</hash>
+        <hash alg="SHA-256">895b770819336aeccbc4f244241e7ea3a501bb394d2ed454cdfb79203f206e88</hash>
+        <hash alg="SHA-512">08e3d57a81da237c5a31f148415012f7f966a9e03a7930fea3047d138d375d1cef425944100a142f16119cbd6285212715941d707ca20dd9c1b219062478b78e</hash>
+        <hash alg="SHA-384">29cc4813e6e0a1a6788b1f462cc192703094a3fb60f6c37b07121e2be049f4924673eb0c479678a24c5738709f5a498e</hash>
+        <hash alg="SHA3-384">fe68a81164881ac281217a5c81bd2602851c81a199cd71ab2afa576984c30c8046c6d3690a778d1ff8fb6a6aa355df91</hash>
+        <hash alg="SHA3-256">cf09acf21fb73cfc618b34edc6b1d95c2122a2df7d708087999b824805f1637e</hash>
+        <hash alg="SHA3-512">19ce772f1586556655ee76450f1efd349c7e04b2766b9974bffcd4d8e11187b0a0ade30dcf0dfd076ed8436beb6fd737fe58aca9b6a3b64576d39e3085e8d03c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.flink/flink-core-api@1.20.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://flink.apache.org/flink-core-api</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/flink/flink-core-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.flink/flink-metrics-core@1.20.1?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.flink</group>
+      <name>flink-metrics-core</name>
+      <version>1.20.1</version>
+      <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">de3d5c6069ab6f408dfca9e31fd3fd3c</hash>
+        <hash alg="SHA-1">faaa220f06b00470184067230134782bc44dde56</hash>
+        <hash alg="SHA-256">0de99dfc8cbc9d9410e86b6b859b5b681ab31302de9a2d72b5e7681d5992f2e4</hash>
+        <hash alg="SHA-512">520c9fdc6d922eb669bb069cbf374531e00bed997a87f5b762e6bdf067a064d2db3d71996cde005e78e2cd3b23dbbb8cf5c54f6484b032c96e7f13616d699ab4</hash>
+        <hash alg="SHA-384">bd035dad3543fd19fa1bbd8c924dc0bd74484039afdd21feff88985c16c4bb797c01044a441be24aa7477e332c03e74d</hash>
+        <hash alg="SHA3-384">1675b71a91829f5217569019937d53c9e5c821b5d13cf53aa2e2c0e1596d34d405bdb4f79e4e0a6e2896ef16c5db1317</hash>
+        <hash alg="SHA3-256">7fdf18fdc630083eb90a6e2e31a6eb74f3d0c5e8bc7bfc506c5d359de82dc04d</hash>
+        <hash alg="SHA3-512">cf650b9e9a7c20202640796f93c5565d02ef64b6e559459be357af5d5fa4a3e75db2a1082d30b6746a95372418b5a3f658c1ef1ac6f7d4fe1685c900219a0644</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.flink/flink-metrics-core@1.20.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://flink.apache.org/flink-metrics/flink-metrics-core</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/flink/flink-metrics/flink-metrics-core</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.flink/flink-annotations@1.20.1?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.flink</group>
+      <name>flink-annotations</name>
+      <version>1.20.1</version>
+      <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">b0b41c28aa7d600d7a9b894944f67278</hash>
+        <hash alg="SHA-1">e268a5b93ce4a0f4bd2117e610bef81e3f1ac81b</hash>
+        <hash alg="SHA-256">30723c0fd3744f7bc2ea024b1e5c663558180a4468d99e66cde27f8ecbfe7773</hash>
+        <hash alg="SHA-512">cfa66ba0f7ef362c3b9cf8eaea5a6d18fc72ae31616e9a57ceb04168531eddf63af58c15981e6decece0fd2c4bc1b43891dfb4c760aa0bbbb8aef4e7a629919f</hash>
+        <hash alg="SHA-384">8044039d1e890d6045147884911aa32689899fcb971cc438cda727270d70c4755b377b265734a8f7ed0040f8d35a2bfd</hash>
+        <hash alg="SHA3-384">4629943df4633de7e8b375143bdc13da74319ae40affacdab1eb8e5075ec1e663ecadc40ebe8b50182bdbdfab80f629f</hash>
+        <hash alg="SHA3-256">c11f40ef9e199ae6c9d04e0fa41e07b7d6b5ac7d81113cd0933eb237a8d44736</hash>
+        <hash alg="SHA3-512">27324af4388a64d39d3260f16e5bdb1a5cb5aac91f02cdb7f0232dd45fd1fcf38488858412ab499742037d13b65e891d6810db1ac1e11cf2c8d8fa748b8741d4</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.flink/flink-annotations@1.20.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://flink.apache.org/flink-annotations</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/flink/flink-annotations</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.commons</group>
+      <name>commons-lang3</name>
+      <version>3.12.0</version>
+      <description>Apache Commons Lang, a package of Java utility classes for the
+  classes that are in java.lang's hierarchy, or are considered to be so
+  standard as to justify existence in java.lang.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">19fe50567358922bdad277959ea69545</hash>
+        <hash alg="SHA-1">c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e</hash>
+        <hash alg="SHA-256">d919d904486c037f8d193412da0c92e22a9fa24230b9d67a57855c5c31c7e94e</hash>
+        <hash alg="SHA-512">fbdbc0943cb3498b0148e86a39b773f97c8e6013740f72dbc727faeabea402073e2cc8c4d68198e5fc6b08a13b7700236292e99d4785f2c9989f2e5fac11fd81</hash>
+        <hash alg="SHA-384">c34b8a0e0eba2168ad56fedeb7a1d710b6f1d3f1ce6aae99a4e0247bd120efbbadc8dcb2f731045b8a16e3efd30604dc</hash>
+        <hash alg="SHA3-384">8ad6ebe7754bf0caa8cda7e59c0e95360d76e06a7ad6aeec5637985519dbd1dd06e7eed04711039f36ec4c49de280def</hash>
+        <hash alg="SHA3-256">18ef639b2aeeb5aedffb18dbf20c79f33e300d99fb31b131689639cc470e6e4c</hash>
+        <hash alg="SHA3-512">fbea96114dcf4f31cfaaa99987be756ddda3a6c74f8c835461997df794d54b92da1f60fe5c3f1f2a43cb8c5f5db7f4048bef77c70993673c7a93f3660fffc8da</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-lang/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LANG</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-lang.git</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.snakeyaml/snakeyaml-engine@2.6?type=jar">
+      <group>org.snakeyaml</group>
+      <name>snakeyaml-engine</name>
+      <version>2.6</version>
+      <description>Core YAML 1.2 parser and emitter for Java</description>
+      <hashes>
+        <hash alg="MD5">719bcfb9f917992d0a99a6f7106d8466</hash>
+        <hash alg="SHA-1">235a7e571b33eda1a81e0f73a3173ef95dd020e5</hash>
+        <hash alg="SHA-256">2652199af40c9aa2f1782400d2dfbbf4e5226208c4e05ddd4059c3d6d9cd1505</hash>
+        <hash alg="SHA-512">c3b5e87ce323b37bcd9e65d060157ebb26d116b5dac30c6eaa185b30aa24c0be8dfd0ad604a9a12ce7010acadee54a9cea9f065cd2f434eeaed7bccce2e14a7d</hash>
+        <hash alg="SHA-384">edfc3c9a95cc2fa524a322f20ec034ec16b3fad950a58bfd1ed774eaaab946304cddc5e9ea4e117a899ec568ba7fa620</hash>
+        <hash alg="SHA3-384">63b9e0ed448431a1d4b34a4b0b97b65c2c7be6ef46f1ce3b10191373e3339422f9c06bc846ae861a982c3c3618abd9c6</hash>
+        <hash alg="SHA3-256">19ce75167267903be79122e149ede2916c3e07bab0658db21ab40864e8c920cd</hash>
+        <hash alg="SHA3-512">7777f37097a6951dafe18fb038d087e7fe0924bfb2a10c66a76a57d95aa65341d4b674c6ff1d9d453c436ffcb50e281c2bedc854ce687fefc30c9595b7352c8a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.snakeyaml/snakeyaml-engine@2.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://bitbucket.org/snakeyaml/snakeyaml-engine</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://bitbucket.org/snakeyaml/snakeyaml-engine/issues</url></reference><reference type="vcs"><url>https://bitbucket.org/snakeyaml/snakeyaml-engine/src</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.commons</group>
+      <name>commons-text</name>
+      <version>1.10.0</version>
+      <description>Apache Commons Text is a library focused on algorithms working on strings.</description>
+      <hashes>
+        <hash alg="MD5">4afc9bfa2d31dbf7330c98fcc954b892</hash>
+        <hash alg="SHA-1">3363381aef8cef2dbc1023b3e3a9433b08b64e01</hash>
+        <hash alg="SHA-256">770cd903fa7b604d1f7ef7ba17f84108667294b2b478be8ed1af3bffb4ae0018</hash>
+        <hash alg="SHA-512">afd836a1094449e0a791fee67363666c47b6d24acff353a5089b837b332c0f4af89565c354682521e37062d20e6b52d70c77bb4f24cca9b9532c274fc708a831</hash>
+        <hash alg="SHA-384">06c56e6e513dd77cf10d0da46cdea08c34e220e81fa024735b668c6650df4234e564fe865ff5cafea963f56b1e8ffd4a</hash>
+        <hash alg="SHA3-384">f09065ed066c25debf8c78cbb0bcc738e1ea283302ec992dcfb649acb90091cff879465c65a162e94534d454e3b4e9bb</hash>
+        <hash alg="SHA3-256">0b59c567164bb755f2353b78ba66744000a8c4b35e1df05255b080a21c3a3dd5</hash>
+        <hash alg="SHA3-512">f0fbce02a862b70f472a27d0722c54ac111ca2eb94584b8b0b73d1926aec26047cd92542ad0b3cf980a6825077587f41b194aa93d6f6350d1b87e59e8df1be7c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-text</url></reference><reference type="build-system"><url>https://github.com/apache/commons-parent/actions</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/TEXT</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-text.git</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0?type=jar">
+      <group>com.esotericsoftware.kryo</group>
+      <name>kryo</name>
+      <version>2.24.0</version>
+      <description>Fast, efficient Java serialization</description>
+      <hashes>
+        <hash alg="MD5">6cf0fa5b5d4f6b8226fd4a4bfb7532b8</hash>
+        <hash alg="SHA-1">0c6b206e80cfd97e66a1364003724491c757b92f</hash>
+        <hash alg="SHA-256">7e56b32c635058f9aa2820f88919ab702d029cbcd15285da9992e36cc0ae52f2</hash>
+        <hash alg="SHA-512">a4c6ce768528a03c219cc6a41b22293f78e433c849c90391b64dda3f2376fd79951a89c5f4e6701bcbcb6eee9abffe2390cfb12dba3b885e4a3d411a26b78f40</hash>
+        <hash alg="SHA-384">678ad1b7f4d99910b8ff44a6c8f78ccae91f823161ce23de39077397352919b7257e1e6e0dea90900be973291ea19282</hash>
+        <hash alg="SHA3-384">671fc6aa9905f8131482e1d0f3fe26126562b13777893d51a66d0f84fc6f2aa3f13947e488ffba8f09c31a2cc0e9758a</hash>
+        <hash alg="SHA3-256">46e89d8f12cbead0fe29ad707d5dba96e880dacce2a6b374ac4bf1ced9f36a79</hash>
+        <hash alg="SHA3-512">c7cde437eef8343eccd4c5ecb8de5683529e3d4d8262e8cd1f7b7d0df9c632253b979737fd1b486314ec2728aee3a3782dee5d2032621485db4aa3b2a8262741</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/EsotericSoftware/kryo</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/EsotericSoftware/kryo</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.esotericsoftware.minlog/minlog@1.2?type=jar">
+      <group>com.esotericsoftware.minlog</group>
+      <name>minlog</name>
+      <version>1.2</version>
+      <description>Minimal overhead Java logging</description>
+      <hashes>
+        <hash alg="MD5">f7cfbdf63b67df0bbfa4c7cb260885bc</hash>
+        <hash alg="SHA-1">59bfcd171d82f9981a5e242b9e840191f650e209</hash>
+        <hash alg="SHA-256">a678cb1aa8f5d03d901c992c75741841d98a9bc3d55dad02e84d65315c4e60f2</hash>
+        <hash alg="SHA-512">7b4082766ad740d86708783f3b08780ed72dd18062aa9ba422c4b9016b332d2334ae511f50ef7d89e4eedbdac5cebc51ab6ddaf4d1eea857a3250eb5962f0d08</hash>
+        <hash alg="SHA-384">932a282a9c06864001f8212199e4be05543609adbd985c5f4517ee6eba734acd3fd8812213bc0c98af264637cbf9c78d</hash>
+        <hash alg="SHA3-384">f36e9f494611c85f59febfef9ce93fc68f1f17db881400456204c1f099e623e334d2f10b41018392877c8af13de7f59a</hash>
+        <hash alg="SHA3-256">37422ef85dce86abd8b14b4c9f7ad77261d728a472126c8eca38f356c98da395</hash>
+        <hash alg="SHA3-512">74ba47271899706a284e942482ff41649ffd93e57a29320732e57864c47f3f0431377130ca7afb5e64cc6b68d4e5a5cdfc38027966cda4b5e512e3ce02bd8a99</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.esotericsoftware.minlog/minlog@1.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://code.google.com/p/minlog/</url></reference><reference type="vcs"><url>http://minlog.googlecode.com/svn/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/commons-collections/commons-collections@3.2.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>commons-collections</group>
+      <name>commons-collections</name>
+      <version>3.2.2</version>
+      <description>Types that extend and augment the Java Collections Framework.</description>
+      <hashes>
+        <hash alg="MD5">f54a8510f834a1a57166970bfc982e94</hash>
+        <hash alg="SHA-1">8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5</hash>
+        <hash alg="SHA-256">eeeae917917144a68a741d4c0dff66aa5c5c5fd85593ff217bced3fc8ca783b8</hash>
+        <hash alg="SHA-512">51c72f9aca7726f3c387095e66be85a6df97c74b00a25434b89188c1b8eab6e2b55accf7b9bd412430d22bd09324dec076e300b3d1fa39fccad471f0f2a3da16</hash>
+        <hash alg="SHA-384">dd4e99b3314bd3c1a1ee26296615d9e44dadf7a1f8a7bbba44fb95121803d331e36d4cca4260e7609af78a47ba3e4073</hash>
+        <hash alg="SHA3-384">8ce03528e4a6e95c44283b56eca87e6a6d3bf1363411a55b538f4f9110cf7470581ea5c73925e877ddab08dba0603f40</hash>
+        <hash alg="SHA3-256">fd3d6134b5f07077b82ccf93d148dacf7c4ce5c971209510edd0e77e3e38c19e</hash>
+        <hash alg="SHA3-512">c2a523916fb7c7d55a05d5e3d9e9b33000733f4b20a71be174e4e093e3f06ea78ad831edd1505527da7388105f8647efb7d5666ba852c90b4e2d5bb74256efbc</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-collections/commons-collections@3.2.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/collections/</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/COLLECTIONS</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/collections/trunk</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-compress@1.26.0?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.commons</group>
+      <name>commons-compress</name>
+      <version>1.26.0</version>
+      <description>Apache Commons Compress defines an API for working with
+compression and archive formats. These include bzip2, gzip, pack200,
+LZMA, XZ, Snappy, traditional Unix Compress, DEFLATE, DEFLATE64, LZ4,
+Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
+      <hashes>
+        <hash alg="MD5">cbc0bb8eca12b747ca21bf998d736e60</hash>
+        <hash alg="SHA-1">659feffdd12280201c8aacb8f7be94f9a883c824</hash>
+        <hash alg="SHA-256">051aceb8bbcc62d0f5b2b8ac72c53767f9c59bfbd050151e65bef6f51c8ed9c9</hash>
+        <hash alg="SHA-512">acbeaa2909b809cd561e7156df18340d96abacb179325622d73bdd6b82cb9b387d6fcb1a44d8195aad4e786da299289e17598a1d337b7c7d1c0bc610cc128714</hash>
+        <hash alg="SHA-384">052d4d0cd1929c4299dd9d37dd36eaea6ed2be6b04d6d83a94f8608a6d1138aa81f7a34f25113ac267e7ba25ce948c9a</hash>
+        <hash alg="SHA3-384">8b0bf441e8ce793fb6513bc07551cc48ab4507696c18e6037b0fcf35bc4e1eb3e44ed962e2d3765c86d4d912770aa53e</hash>
+        <hash alg="SHA3-256">e441768e06092053f4703844ec0c8f2b437e06e7c190d48fec9d7682beb94c40</hash>
+        <hash alg="SHA3-512">5984f9f08f83789555677f6800f25fa8e80a9eb2e4d46b5fb117b8efc24753644fa103a2f6b619827661a41677991bc827965172ef25f1313d8a59154e615e8d</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.commons/commons-compress@1.26.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-compress/</url></reference><reference type="build-system"><url>https://github.com/apache/commons-parent/actions</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/COMPRESS</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-compress.git</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/commons-io/commons-io@2.15.1?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>commons-io</group>
+      <name>commons-io</name>
+      <version>2.15.1</version>
+      <description>The Apache Commons IO library contains utility classes, stream implementations, file filters,
+file comparators, endian transformation classes, and much more.</description>
+      <hashes>
+        <hash alg="MD5">84351f7991a0e6722f00e96a4ccc376f</hash>
+        <hash alg="SHA-1">f11560da189ab563a5c8e351941415430e9304ea</hash>
+        <hash alg="SHA-256">a58af12ee1b68cfd2ebb0c27caef164f084381a00ec81a48cc275fd7ea54e154</hash>
+        <hash alg="SHA-512">e9adaeed2d715ac0ae44de056ba165a743a92acbeb9871b535f7e58e0b3bc4fba276495b50429be195098a559f3adb7294048479754a0ee4d397da2efda5f81c</hash>
+        <hash alg="SHA-384">028c72b59373d3894da22f9eb2c731aabd00f670993973f71a354d722670c12ca659686b83bbf8db32d060ca180f50b2</hash>
+        <hash alg="SHA3-384">73cd585ab3736b4be50ec0f10dfe5ebfc3390eea8d56f07f29055f1fddb2dff8084310eaa6fb9f97ea639ed1abd7bc33</hash>
+        <hash alg="SHA3-256">daf39bc99f1a3dc0075714a4a342a58d69a4cd62c25bc39a581f657ca72b1044</hash>
+        <hash alg="SHA3-512">b003f8971d1536ea0fc4320dbfe17d7259d49e59314739f9fc83134e511facbff048b0ef4f86a9d0893781ca09c95cebc3b181a6c89a2d41e851870b96e76839</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-io/commons-io@2.15.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-io/</url></reference><reference type="build-system"><url>https://github.com/apache/commons-parent/actions</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/IO</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-io.git</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.flink/flink-shaded-guava@31.1-jre-17.0?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.flink</group>
+      <name>flink-shaded-guava</name>
+      <version>31.1-jre-17.0</version>
+      <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">b8c5129f4164f8ee2086854bdb289690</hash>
+        <hash alg="SHA-1">00fa393c1db1308f4fb920f010f79c4c774e2f39</hash>
+        <hash alg="SHA-256">03442ae97c4ca34388568cbce0e67e9911b0137b2b3849dff7a550008d5a4336</hash>
+        <hash alg="SHA-512">15bb65f24054768915fbc29a95dfa93307b0babc39a02a204ae65eff44f259357b471fef9967b864b7a78e07d266933ce8e3eda8a866fcc73643cc38bcc5653f</hash>
+        <hash alg="SHA-384">c8e6f2630c0824bbd1902a25884f09c076efbbbe0265f5d3fb49370affcff81ee5dd8b7887ba4bf063915446b937117a</hash>
+        <hash alg="SHA3-384">a2ffbdbcfb8be61c43891fa19275a765b71e6830b110fa9ab77d46ac35527d2be0943d895767a70591895916963048c6</hash>
+        <hash alg="SHA3-256">5a73e8e370e9bb3d634495dade320f0b569f4ed307fc147cb8f3af547bb6b057</hash>
+        <hash alg="SHA3-512">abd1618c0568eee546f5b32314085bef40f8de74ffa5e52f0aa7a5bed82713142af8a1bdaf79f18e2210b79f8c3592276c54b2356594d19d8f56185ec9a457d5</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.flink/flink-shaded-guava@31.1-jre-17.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://flink.apache.org/flink-shaded-guava</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/flink-shaded/flink-shaded-guava</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.flink/flink-shaded-asm-9@9.5-17.0?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.flink</group>
+      <name>flink-shaded-asm-9</name>
+      <version>9.5-17.0</version>
+      <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">443601ddd70625d741be1d3382dcf012</hash>
+        <hash alg="SHA-1">d09e84a77ad8258d26f6be6bbb31fe81e3f98658</hash>
+        <hash alg="SHA-256">a79273d4fbea1683b5fe81bce25d7fe552a542690481132f7ded034a8f00169e</hash>
+        <hash alg="SHA-512">b1414e5cd4cd63e1e8a2f4a18198834910a360dac22392e298458049d7bf05e74cea2a4206751026ad7dc2348112aa7f223d0ca6178a859cf343cf306a6bd4c8</hash>
+        <hash alg="SHA-384">ff6195b15060e725158aa6c8406e441576c38318fa5ea26e27ffd09f4ed4596b5198579d69ef0192dbb6edb3fda79d40</hash>
+        <hash alg="SHA3-384">2b29ecee21e6bf39e6a913cb1bb41d455ade8ec169b7574b6052972f4cf571fb5374d4dde1a24be0ec4d08246359348f</hash>
+        <hash alg="SHA3-256">353458e2d9919279b41a1b74791b984fef6586f07232d2e71e42892a790052c9</hash>
+        <hash alg="SHA3-512">e491cdd687aaa88d8d84e792caedc02a4ef27d2bdd78e4e9bf286876ce06518c03f0340ff984ffcd507d7982391e5a6f3c4c61e05fbf0e07bd9d5683d493393e</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.flink/flink-shaded-asm-9@9.5-17.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://flink.apache.org/flink-shaded-asm-9</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/flink-shaded/flink-shaded-asm-9</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.ibm.icu/icu4j@67.1?type=jar">
+      <group>com.ibm.icu</group>
+      <name>icu4j</name>
+      <version>67.1</version>
+      <description>International Component for Unicode for Java (ICU4J) is a mature, widely used Java library
+    providing Unicode and Globalization support</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">046a5f59abf6b67a464dea584d11e59d</hash>
+        <hash alg="SHA-1">2e159807158095566726600534034030dddab6d0</hash>
+        <hash alg="SHA-256">c4eb904caf5fba968a2f1a3b8aef14df801e9329b21697209ca30bfcf153867d</hash>
+        <hash alg="SHA-512">b3036b162356a0a5dad39eee611dae27c6fbe53f9e5ec1f3529ab02d49d97093b58602f43dd855433a0bbe02f6253e46a9d1899911c8e2e73001ab2c9a79d68d</hash>
+        <hash alg="SHA-384">c2b28649d0ef9bf68f258a9f432c627a553ead79670f0a7ada3d986091a0001c5ab9eca372f792734bff733370a61fb1</hash>
+        <hash alg="SHA3-384">3726bfa8b77bd0cdd66564944044d82dca3ee1fcf2594ebf1a7acc6752faf4c11892a1744af27e5528dc4b991e4cd0c0</hash>
+        <hash alg="SHA3-256">cb19cec2baad1dc610267b2c98325f5c742230caf2247ef6297dfe8d9be9f11d</hash>
+        <hash alg="SHA3-512">f46e4ead1cc1c05c3825716485ce79c890500a5356f8e7ca578f3080c09fb2460fb1aed81d65d345c402706906ea4e96afc0ff03c50fb0ac5bbacd351a8f11ec</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <name>Unicode/ICU License</name>
+          <url>https://raw.githubusercontent.com/unicode-org/icu/master/icu4c/LICENSE</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.ibm.icu/icu4j@67.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://icu-project.org/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://unicode-org.atlassian.net/projects/ICU</url></reference><reference type="mailing-list"><url>http://sourceforge.net/mailarchive/forum.php?forum_name=icu-support</url></reference><reference type="vcs"><url>https://github.com/unicode-org/icu</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.flink/flink-shaded-jackson@2.14.2-17.0?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.flink</group>
+      <name>flink-shaded-jackson</name>
+      <version>2.14.2-17.0</version>
+      <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">492259ac7642687cc959257a5512542f</hash>
+        <hash alg="SHA-1">689daca4a6fc14e361831e15abd96283166d0f62</hash>
+        <hash alg="SHA-256">37e87311498ae8da80adb2aa09ab6e9739d8611e09868e7220822206c739231e</hash>
+        <hash alg="SHA-512">3f4434cf93f2cd12b686aa84c4b1910d7e0191b2ddad7ba8de6d2c3805d3b49afcf5da06e1052faf01b6cb0dda554594f78e39db69d83208119c1f4f2cd5dc8f</hash>
+        <hash alg="SHA-384">9e689ab8b7e7f7db269fd5b1b0fc1dc5f13fed06b283c9b8ceec5c500fc9f6a4200674eef2bb884a9e67133de32e9a77</hash>
+        <hash alg="SHA3-384">a67fd2fe9cfd6e8ef51ab3c0217fcaf0a9420178a8c4025770b86d6b590db65c8bb4d96acf05b4212d2661073e4409cc</hash>
+        <hash alg="SHA3-256">e47b2c93363ff5d65ae47d619f3caa605b5d996e4e765811b4b7117f1c58c90e</hash>
+        <hash alg="SHA3-512">af2b026aebfa279ca42602c04a8db054a12c9f39c5640a0e7804cfa5d06124a52099aea56e9dfc25d018da9baa742b274c5914aa98814dbdd0e9c5ebfa7035b6</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.flink/flink-shaded-jackson@2.14.2-17.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://flink.apache.org/flink-shaded-jackson-parent/flink-shaded-jackson</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/flink-shaded/flink-shaded-jackson-parent/flink-shaded-jackson</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.flink/flink-shaded-force-shading@17.0?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.flink</group>
+      <name>flink-shaded-force-shading</name>
+      <version>17.0</version>
+      <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">6890ff555c82f3bb156cf9c73bf09cf9</hash>
+        <hash alg="SHA-1">345c153973a17fb8a98d368352e14893edcbd610</hash>
+        <hash alg="SHA-256">dcc7dff160a40b74fa5db2805b2004153ffd0517968f3c7843a8ee43be82e710</hash>
+        <hash alg="SHA-512">9de23513832248618b78e279c0e3900f5cafb7193254ef6818b4f0b6f3b70045dd9cc4fdd13caeeca8b70a44f38201ce055f07248cdf08930a20e1b7a73997ff</hash>
+        <hash alg="SHA-384">063611872b4b1a1718e0472e32198bded0d74fa656e5c47a7b20038cd5ff70106e3109b60fe882880feea486e1ef83bf</hash>
+        <hash alg="SHA3-384">26f9225d2c401391133dabc97340d1048504deaaae3c6b02ba20b83d4efe8c53a6d4f4e63a04e4317f9bce6b1a1ee013</hash>
+        <hash alg="SHA3-256">aae3e6da763019cc2fd4919df572a3653b46aedaf60a3adb3d28bc7f94023523</hash>
+        <hash alg="SHA3-512">e616e089fb70dc79503b6c235bd8d14c6e7c8e608c87bb4fcd02fe86d6ba27985bac4f144843af9fc7a7c495de7057320ccddea9f571c42bdcaa1c73966f265f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.flink/flink-shaded-force-shading@17.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://flink.apache.org/flink-shaded-force-shading</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/flink-shaded/flink-shaded-force-shading</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar">
+      <publisher>QOS.ch</publisher>
+      <group>org.slf4j</group>
+      <name>slf4j-api</name>
+      <version>1.7.36</version>
+      <description>The slf4j API</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">872da51f5de7f3923da4de871d57fd85</hash>
+        <hash alg="SHA-1">6c62681a2f655b49963a5983b8b0950a6120ae14</hash>
+        <hash alg="SHA-256">d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0</hash>
+        <hash alg="SHA-512">f9b033fc019a44f98b16048da7e2b59edd4a6a527ba60e358f65ab88e0afae03a9340f1b3e8a543d49fa542290f499c5594259affa1ff3e6e7bf3b428d4c610b</hash>
+        <hash alg="SHA-384">2b14ad035877087157e379d3277dcdcd79e58d6bdb147c47d29e377d75ce53ad42cafbf22f5fb7827c7e946ff4876b9a</hash>
+        <hash alg="SHA3-384">3bc3110dafb8d5be16a39f3b2671a466463cd99eb39610c0e4719a7bf2d928f2ea213c734887c6926a07c4cca7769e4b</hash>
+        <hash alg="SHA3-256">ba2608179fcf46e2291a90b9cbb4aa30d718e481f59c350cc21c73b88d826881</hash>
+        <hash alg="SHA3-512">14c4edcd19702ef607d78826839d8a6d3a39157df54b89a801d3d3cbbe1307131a77671b041c761122730fb1387888c5ec2e46bdd80e1cb07f8f144676441824</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/slf4j-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar">
+      <group>com.google.code.findbugs</group>
+      <name>jsr305</name>
+      <version>1.3.9</version>
+      <description>JSR305 Annotations for Findbugs</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">1d5a772e400b04bb67a7ef4a0e0996d8</hash>
+        <hash alg="SHA-1">40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf</hash>
+        <hash alg="SHA-256">905721a0eea90a81534abb7ee6ef4ea2e5e645fa1def0a5cd88402df1b46c9ed</hash>
+        <hash alg="SHA-512">06da282cfd8e30d9f8cf17702b8709172b00e22b75a627a1d85f8989615b8a1a401bc25d9aee7b14aed1d9b5df73bf2ea8d66f9c8468d9577c29f0ccfa2cc70a</hash>
+        <hash alg="SHA-384">56e6b41ef62eb5edfed0203802cefae9c2df86388148e420bb0c687abb2b80e14d5c2a82d5b35dce4badaf148f94eada</hash>
+        <hash alg="SHA3-384">58c3bf89fa1afa75c2c5078159fd28e27b2273d437f26aaaa7391310b6f0823f3cf476a24f5631c0881f3f7e946d99be</hash>
+        <hash alg="SHA3-256">c333ea5faedfa78e0614a2620438d5724eab093df4e960918391b6a44c2915b0</hash>
+        <hash alg="SHA3-512">67ec31448e156cc72dd036060b460bb2667a13b1cbe500b6b7eed3235b1994b44c39f440ebd07b21ec9595b166ad61121d4f6a132b5b313c558ab21b72599425</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://findbugs.sourceforge.net/</url></reference><reference type="vcs"><url>http://findbugs.googlecode.com/svn/trunk/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.objenesis/objenesis@2.1?type=jar">
+      <publisher>Joe Walnes, Henri Tremblay, Leonardo Mesquita</publisher>
+      <group>org.objenesis</group>
+      <name>objenesis</name>
+      <version>2.1</version>
+      <description>A library for instantiating Java objects</description>
+      <hashes>
+        <hash alg="MD5">32ccb1d20a42b5aaaceb90c9082a2efa</hash>
+        <hash alg="SHA-1">87c0ea803b69252868d09308b4618f766f135a96</hash>
+        <hash alg="SHA-256">c74330cc6b806c804fd37e74487b4fe5d7c2750c5e15fbc6efa13bdee1bdef80</hash>
+        <hash alg="SHA-512">1dec9ee30812b8006e536a2749c5781ccdc4b446539efb6fa534f22e70562033876bf2eb22c6946d617695729bd65f0f65b984f15f05ac63db5bed215e74427c</hash>
+        <hash alg="SHA-384">657b8a3b80a5475f198425396f7264301f9e0f3ad5dc336ef0c7b46874f5544861a8a2fd48cdb5f672e199a6935c19d1</hash>
+        <hash alg="SHA3-384">e526937d722aad1857869b2d2a0ba5c88815609308c00b776b51614e501de5d93d54978f5bb9cf496bdcc28b1dbd5775</hash>
+        <hash alg="SHA3-256">436cfbb9c208dd03c951708fa4ba6525e2a0b26a873d594a6fbe93ab49082c97</hash>
+        <hash alg="SHA3-512">1e7ee9411df7cfbf0669c38e4ef029155dd718b91db1d182841c740caf8c1057ed273a77f8e32d724c48aaf96815a26ab099c776511ffc5ef351d70ebfa70344</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.objenesis/objenesis@2.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://objenesis.org</url></reference><reference type="distribution"><url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/easymock/easymock/objenesis</url></reference></externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:maven/org.apache.flink/flink-table-common@1.20.1?type=jar">
+      <dependency ref="pkg:maven/org.apache.flink/flink-core@1.20.1?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.flink/flink-shaded-asm-9@9.5-17.0?type=jar"/>
+      <dependency ref="pkg:maven/com.ibm.icu/icu4j@67.1?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.flink/flink-shaded-force-shading@17.0?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
+      <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.apache.flink/flink-core@1.20.1?type=jar">
+      <dependency ref="pkg:maven/org.apache.flink/flink-core-api@1.20.1?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.flink/flink-annotations@1.20.1?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.flink/flink-shaded-asm-9@9.5-17.0?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.flink/flink-shaded-jackson@2.14.2-17.0?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
+      <dependency ref="pkg:maven/org.snakeyaml/snakeyaml-engine@2.6?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar"/>
+      <dependency ref="pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0?type=jar"/>
+      <dependency ref="pkg:maven/commons-collections/commons-collections@3.2.2?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.commons/commons-compress@1.26.0?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.flink/flink-shaded-guava@31.1-jre-17.0?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
+      <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.apache.flink/flink-core-api@1.20.1?type=jar">
+      <dependency ref="pkg:maven/org.apache.flink/flink-annotations@1.20.1?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.flink/flink-metrics-core@1.20.1?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
+      <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.apache.flink/flink-annotations@1.20.1?type=jar">
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
+      <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
+    <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.flink/flink-metrics-core@1.20.1?type=jar">
+      <dependency ref="pkg:maven/org.apache.flink/flink-annotations@1.20.1?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.apache.flink/flink-shaded-asm-9@9.5-17.0?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.flink/flink-shaded-jackson@2.14.2-17.0?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
+    <dependency ref="pkg:maven/org.snakeyaml/snakeyaml-engine@2.6?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar">
+      <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0?type=jar">
+      <dependency ref="pkg:maven/com.esotericsoftware.minlog/minlog@1.2?type=jar"/>
+      <dependency ref="pkg:maven/org.objenesis/objenesis@2.1?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.esotericsoftware.minlog/minlog@1.2?type=jar"/>
+    <dependency ref="pkg:maven/org.objenesis/objenesis@2.1?type=jar"/>
+    <dependency ref="pkg:maven/commons-collections/commons-collections@3.2.2?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.commons/commons-compress@1.26.0?type=jar">
+      <dependency ref="pkg:maven/commons-io/commons-io@2.15.1?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/commons-io/commons-io@2.15.1?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.flink/flink-shaded-guava@31.1-jre-17.0?type=jar"/>
+    <dependency ref="pkg:maven/com.ibm.icu/icu4j@67.1?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.flink/flink-shaded-force-shading@17.0?type=jar"/>
+  </dependencies>
+</bom>
