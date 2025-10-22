@@ -30,7 +30,8 @@ under the License.
 	<name>Flink : Table : </name>
 
 	<packaging>pom</packaging>
-111
+111111
+	22
 	<modules>
 		<module>flink-table-common</module>
 		<module>flink-table-api-java</module>
