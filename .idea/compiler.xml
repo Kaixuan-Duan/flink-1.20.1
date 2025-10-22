@@ -171,4 +171,30 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="flink-parent" options="-Xpkginfo:always" />
+      <module name="flink-sql-client" options="-Xpkginfo:always" />
+      <module name="flink-sql-gateway" options="-Xpkginfo:always" />
+      <module name="flink-sql-gateway-api" options="-Xpkginfo:always" />
+      <module name="flink-sql-jdbc-driver" options="-Xpkginfo:always" />
+      <module name="flink-sql-jdbc-driver-bundle" options="-Xpkginfo:always" />
+      <module name="flink-sql-parser" options="-Xpkginfo:always" />
+      <module name="flink-table" options="-Xpkginfo:always" />
+      <module name="flink-table-api-bridge-base" options="-Xpkginfo:always" />
+      <module name="flink-table-api-java" options="-Xpkginfo:always" />
+      <module name="flink-table-api-java-bridge" options="-Xpkginfo:always" />
+      <module name="flink-table-api-java-uber" options="-Xpkginfo:always" />
+      <module name="flink-table-api-scala" options="-Xpkginfo:always" />
+      <module name="flink-table-api-scala-bridge" options="-Xpkginfo:always" />
+      <module name="flink-table-calcite-bridge" options="-Xpkginfo:always" />
+      <module name="flink-table-code-splitter" options="-Xpkginfo:always" />
+      <module name="flink-table-common" options="-Xpkginfo:always" />
+      <module name="flink-table-planner" options="-Xpkginfo:always" />
+      <module name="flink-table-planner-loader" options="-Xpkginfo:always" />
+      <module name="flink-table-planner-loader-bundle" options="-Xpkginfo:always" />
+      <module name="flink-table-runtime" options="-Xpkginfo:always" />
+      <module name="flink-table-test-utils" options="-Xpkginfo:always" />
+    </option>
+  </component>
 </project>

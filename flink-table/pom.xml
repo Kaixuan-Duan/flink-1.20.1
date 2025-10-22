@@ -32,7 +32,8 @@ under the License.
 	<packaging>pom</packaging>
 11111111111
 	22
-	222222
+	222222111111
+	33333333
 	<modules>
 		<module>flink-table-common</module>
 		<module>flink-table-api-java</module>
